@@ -1,0 +1,10 @@
+^D:\DANIEL\GRAPHICS\WATERSURFACE-MASTER\BUILD\CMAKEFILES\B02BA8C707705647FB803F76E6E34DBD\GENERATE.STAMP.RULE
+setlocal
+D:\Daniel\CMake\bin\cmake.exe -SD:/Daniel/Graphics/WaterSurface-master -BD:/Daniel/Graphics/WaterSurface-master/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Daniel/Graphics/WaterSurface-master/build/WaterSurface.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Daniel\Graphics\WaterSurface-master\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Daniel\Graphics\WaterSurface-master\src\CallBacks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Daniel\Graphics\WaterSurface-master\src\ControlPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Daniel\Graphics\WaterSurface-master\src\Track.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Daniel\Graphics\WaterSurface-master\src\TrainView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Daniel\Graphics\WaterSurface-master\src\TrainWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Daniel\Graphics\WaterSurface-master\src\Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Daniel\Graphics\WaterSurface-master\include\glad4.6\src\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Daniel\Graphics\WaterSurface-master\src\RenderUtilities\BufferObject.h">
+      <Filter>RenderUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Daniel\Graphics\WaterSurface-master\src\RenderUtilities\Shader.h">
+      <Filter>RenderUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Daniel\Graphics\WaterSurface-master\src\RenderUtilities\Texture.h">
+      <Filter>RenderUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Daniel\Graphics\WaterSurface-master\src\RenderUtilities\Cubemap.h">
+      <Filter>RenderUtilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Daniel\Graphics\WaterSurface-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Daniel\Graphics\WaterSurface-master\src\CallBacks.H" />
+    <None Include="D:\Daniel\Graphics\WaterSurface-master\src\ControlPoint.H" />
+    <None Include="D:\Daniel\Graphics\WaterSurface-master\src\Object.H" />
+    <None Include="D:\Daniel\Graphics\WaterSurface-master\src\Track.H" />
+    <None Include="D:\Daniel\Graphics\WaterSurface-master\src\TrainView.H" />
+    <None Include="D:\Daniel\Graphics\WaterSurface-master\src\TrainWindow.H" />
+    <None Include="D:\Daniel\Graphics\WaterSurface-master\src\shaders\simple.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="D:\Daniel\Graphics\WaterSurface-master\src\shaders\simple.frag">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="RenderUtilities">
+      <UniqueIdentifier>{DBA088CB-C47E-3B54-89E3-272E630BE04B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2D70F3E9-B9C7-35D0-99E1-462BA0324613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{280705F5-BF49-3224-93EA-CCD1B8DFEEEE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

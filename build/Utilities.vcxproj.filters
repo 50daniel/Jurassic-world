@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Daniel\Graphics\WaterSurface-master\src\Utilities\ArcBallCam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Daniel\Graphics\WaterSurface-master\src\Utilities\3DUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Daniel\Graphics\WaterSurface-master\src\Utilities\Pnt3f.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Daniel\Graphics\WaterSurface-master\src\Utilities\3DUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Daniel\Graphics\WaterSurface-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Daniel\Graphics\WaterSurface-master\src\Utilities\ArcBallCam.H" />
+    <None Include="D:\Daniel\Graphics\WaterSurface-master\src\Utilities\Pnt3f.H" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DB8A0175-4CCC-3477-A569-89E94351FEA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2D70F3E9-B9C7-35D0-99E1-462BA0324613}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
